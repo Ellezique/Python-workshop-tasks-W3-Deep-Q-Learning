@@ -1,0 +1,604 @@
+root@localhost:~/deep_q_learning# ./pythonbreakout.py
+Episode 300
+ 100 episode moving avg: 0.49485338
+Using device cpu cpu
+Episode 1
+ 100 episode moving avg: 0.0
+Episode 2
+ 100 episode moving avg: 0.0
+Episode 3
+ 100 episode moving avg: 0.0
+Episode 4
+ 100 episode moving avg: 0.0
+Episode 5
+ 100 episode moving avg: 0.0
+Episode 6
+ 100 episode moving avg: 0.0
+Episode 7
+ 100 episode moving avg: 0.0
+Episode 8
+ 100 episode moving avg: 0.0
+Episode 9
+ 100 episode moving avg: 0.0
+Episode 10
+ 100 episode moving avg: 0.0
+Episode 11
+ 100 episode moving avg: 0.0
+Episode 12
+ 100 episode moving avg: 0.0
+Episode 13
+ 100 episode moving avg: 0.0
+Episode 14
+ 100 episode moving avg: 0.0
+Episode 15
+ 100 episode moving avg: 0.0
+Episode 16
+ 100 episode moving avg: 0.0
+Episode 17
+ 100 episode moving avg: 0.0
+Episode 18
+ 100 episode moving avg: 0.0
+Episode 19
+ 100 episode moving avg: 0.0
+Episode 20
+ 100 episode moving avg: 0.0
+Episode 21
+ 100 episode moving avg: 0.0
+Episode 22
+ 100 episode moving avg: 0.0
+Episode 23
+ 100 episode moving avg: 0.0
+Episode 24
+ 100 episode moving avg: 0.0
+Episode 25
+ 100 episode moving avg: 0.0
+Episode 26
+ 100 episode moving avg: 0.0
+Episode 27
+ 100 episode moving avg: 0.0
+Episode 28
+ 100 episode moving avg: 0.0
+Episode 29
+ 100 episode moving avg: 0.0
+Episode 30
+ 100 episode moving avg: 0.0
+Episode 31
+ 100 episode moving avg: 0.0
+Episode 32
+ 100 episode moving avg: 0.0
+Episode 33
+ 100 episode moving avg: 0.0
+Episode 34
+ 100 episode moving avg: 0.0
+Episode 35
+ 100 episode moving avg: 0.0
+Episode 36
+ 100 episode moving avg: 0.0
+Episode 37
+ 100 episode moving avg: 0.0
+Episode 38
+ 100 episode moving avg: 0.0
+Episode 39
+ 100 episode moving avg: 0.0
+Episode 40
+ 100 episode moving avg: 0.0
+Episode 41
+ 100 episode moving avg: 0.0
+Episode 42
+ 100 episode moving avg: 0.0
+Episode 43
+ 100 episode moving avg: 0.0
+Episode 44
+ 100 episode moving avg: 0.0
+Episode 45
+ 100 episode moving avg: 0.0
+Episode 46
+ 100 episode moving avg: 0.0
+Episode 47
+ 100 episode moving avg: 0.0
+Episode 48
+ 100 episode moving avg: 0.0
+Episode 49
+ 100 episode moving avg: 0.0
+Episode 50
+ 100 episode moving avg: 0.0
+Episode 51
+ 100 episode moving avg: 0.0
+Episode 52
+ 100 episode moving avg: 0.0
+Episode 53
+ 100 episode moving avg: 0.0
+Episode 54
+ 100 episode moving avg: 0.0
+Episode 55
+ 100 episode moving avg: 0.0
+Episode 56
+ 100 episode moving avg: 0.0
+Episode 57
+ 100 episode moving avg: 0.0
+Episode 58
+ 100 episode moving avg: 0.0
+Episode 59
+ 100 episode moving avg: 0.0
+Episode 60
+ 100 episode moving avg: 0.0
+Episode 61
+ 100 episode moving avg: 0.0
+Episode 62
+ 100 episode moving avg: 0.0
+Episode 63
+ 100 episode moving avg: 0.0
+Episode 64
+ 100 episode moving avg: 0.0
+Episode 65
+ 100 episode moving avg: 0.0
+Episode 66
+ 100 episode moving avg: 0.0
+Episode 67
+ 100 episode moving avg: 0.0
+Episode 68
+ 100 episode moving avg: 0.0
+Episode 69
+ 100 episode moving avg: 0.0
+Episode 70
+ 100 episode moving avg: 0.0
+Episode 71
+ 100 episode moving avg: 0.0
+Episode 72
+ 100 episode moving avg: 0.0
+Episode 73
+ 100 episode moving avg: 0.0
+Episode 74
+ 100 episode moving avg: 0.0
+Episode 75
+ 100 episode moving avg: 0.0
+Episode 76
+ 100 episode moving avg: 0.0
+Episode 77
+ 100 episode moving avg: 0.0
+Episode 78
+ 100 episode moving avg: 0.0
+Episode 79
+ 100 episode moving avg: 0.0
+Episode 80
+ 100 episode moving avg: 0.0
+Episode 81
+ 100 episode moving avg: 0.0
+Episode 82
+ 100 episode moving avg: 0.0
+Episode 83
+ 100 episode moving avg: 0.0
+Episode 84
+ 100 episode moving avg: 0.0
+Episode 85
+ 100 episode moving avg: 0.0
+Episode 86
+ 100 episode moving avg: 0.0
+Episode 87
+ 100 episode moving avg: 0.0
+Episode 88
+ 100 episode moving avg: 0.0
+Episode 89
+ 100 episode moving avg: 0.0
+Episode 90
+ 100 episode moving avg: 0.0
+Episode 91
+ 100 episode moving avg: 0.0
+Episode 92
+ 100 episode moving avg: 0.0
+Episode 93
+ 100 episode moving avg: 0.0
+Episode 94
+ 100 episode moving avg: 0.0
+Episode 95
+ 100 episode moving avg: 0.0
+Episode 96
+ 100 episode moving avg: 0.0
+Episode 97
+ 100 episode moving avg: 0.0
+Episode 98
+ 100 episode moving avg: 0.0
+Episode 99
+ 100 episode moving avg: 0.0
+Episode 100
+ 100 episode moving avg: 1923.96
+Episode 101
+ 100 episode moving avg: 1931.05
+Episode 102
+ 100 episode moving avg: 1962.19
+Episode 103
+ 100 episode moving avg: 1970.69
+Episode 104
+ 100 episode moving avg: 1987.06
+Episode 105
+ 100 episode moving avg: 2018.98
+Episode 106
+ 100 episode moving avg: 2033.78
+Episode 107
+ 100 episode moving avg: 2054.13
+Episode 108
+ 100 episode moving avg: 2086.8
+Episode 109
+ 100 episode moving avg: 2107.01
+Episode 110
+ 100 episode moving avg: 2130.3
+Episode 111
+ 100 episode moving avg: 2155.87
+Episode 112
+ 100 episode moving avg: 2160.86
+Episode 113
+ 100 episode moving avg: 2163.57
+Episode 114
+ 100 episode moving avg: 2155.68
+Episode 115
+ 100 episode moving avg: 2148.25
+Episode 116
+ 100 episode moving avg: 2149.06
+Episode 117
+ 100 episode moving avg: 2144.54
+Episode 118
+ 100 episode moving avg: 2153.56
+Episode 119
+ 100 episode moving avg: 2160.3
+Episode 120
+ 100 episode moving avg: 2166.21
+Episode 121
+ 100 episode moving avg: 2175.59
+Episode 122
+ 100 episode moving avg: 2152.39
+Episode 123
+ 100 episode moving avg: 2150.78
+Episode 124
+ 100 episode moving avg: 2150.34
+Episode 125
+ 100 episode moving avg: 2157.3
+Episode 126
+ 100 episode moving avg: 2142.24
+Episode 127
+ 100 episode moving avg: 2128.3
+Episode 128
+ 100 episode moving avg: 2129.93
+Episode 129
+ 100 episode moving avg: 2149.31
+Episode 130
+ 100 episode moving avg: 2163.62
+Episode 131
+ 100 episode moving avg: 2164.16
+Episode 132
+ 100 episode moving avg: 2166.58
+Episode 133
+ 100 episode moving avg: 2169.07
+Episode 134
+ 100 episode moving avg: 2170.79
+Episode 135
+ 100 episode moving avg: 2166.96
+Episode 136
+ 100 episode moving avg: 2158.9
+Episode 137
+ 100 episode moving avg: 2171.1
+Episode 138
+ 100 episode moving avg: 2165.67
+Episode 139
+ 100 episode moving avg: 2169.1
+Episode 140
+ 100 episode moving avg: 2159.57
+Episode 141
+ 100 episode moving avg: 2156.22
+Episode 142
+ 100 episode moving avg: 2158.3
+Episode 143
+ 100 episode moving avg: 2145.05
+Episode 144
+ 100 episode moving avg: 2137.46
+Episode 145
+ 100 episode moving avg: 2144.92
+Episode 146
+ 100 episode moving avg: 2152.61
+Episode 147
+ 100 episode moving avg: 2149.09
+Episode 148
+ 100 episode moving avg: 2152.43
+Episode 149
+ 100 episode moving avg: 2154.12
+Episode 150
+ 100 episode moving avg: 2173.21
+Episode 151
+ 100 episode moving avg: 2146.3
+Episode 152
+ 100 episode moving avg: 2166.61
+Episode 153
+ 100 episode moving avg: 2164.36
+Episode 154
+ 100 episode moving avg: 2165.76
+Episode 155
+ 100 episode moving avg: 2163.3
+Episode 156
+ 100 episode moving avg: 2181.55
+Episode 157
+ 100 episode moving avg: 2193.49
+Episode 158
+ 100 episode moving avg: 2203.41
+Episode 159
+ 100 episode moving avg: 2213.89
+Episode 160
+ 100 episode moving avg: 2214.31
+Episode 161
+ 100 episode moving avg: 2221.17
+Episode 162
+ 100 episode moving avg: 2207.21
+Episode 163
+ 100 episode moving avg: 2206.24
+Episode 164
+ 100 episode moving avg: 2224.53
+Episode 165
+ 100 episode moving avg: 2202.25
+Episode 166
+ 100 episode moving avg: 2206.92
+Episode 167
+ 100 episode moving avg: 2203.63
+Episode 168
+ 100 episode moving avg: 2209.9
+Episode 169
+ 100 episode moving avg: 2232.48
+Episode 170
+ 100 episode moving avg: 2244.91
+Episode 171
+ 100 episode moving avg: 2248.07
+Episode 172
+ 100 episode moving avg: 2251.06
+Episode 173
+ 100 episode moving avg: 2234.05
+Episode 174
+ 100 episode moving avg: 2221.63
+Episode 175
+ 100 episode moving avg: 2229.85
+Episode 176
+ 100 episode moving avg: 2236.23
+Episode 177
+ 100 episode moving avg: 2244.69
+Episode 178
+ 100 episode moving avg: 2234.34
+Episode 179
+ 100 episode moving avg: 2265.9
+Episode 180
+ 100 episode moving avg: 2269.12
+Episode 181
+ 100 episode moving avg: 2284.31
+Episode 182
+ 100 episode moving avg: 2276.98
+Episode 183
+ 100 episode moving avg: 2285.87
+Episode 184
+ 100 episode moving avg: 2291.79
+Episode 185
+ 100 episode moving avg: 2303.09
+Episode 186
+ 100 episode moving avg: 2304.43
+Episode 187
+ 100 episode moving avg: 2298.62
+Episode 188
+ 100 episode moving avg: 2289.14
+Episode 189
+ 100 episode moving avg: 2284.1
+Episode 190
+ 100 episode moving avg: 2285.33
+Episode 191
+ 100 episode moving avg: 2291.13
+Episode 192
+ 100 episode moving avg: 2281.41
+Episode 193
+ 100 episode moving avg: 2275.82
+Episode 194
+ 100 episode moving avg: 2282.1
+Episode 195
+ 100 episode moving avg: 2289.74
+Episode 196
+ 100 episode moving avg: 2296.07
+Episode 197
+ 100 episode moving avg: 2284.3
+Episode 198
+ 100 episode moving avg: 2278.6
+Episode 199
+ 100 episode moving avg: 2273.68
+Episode 200
+ 100 episode moving avg: 2272.66
+Episode 201
+ 100 episode moving avg: 2270.72
+Episode 202
+ 100 episode moving avg: 2251.55
+Episode 203
+ 100 episode moving avg: 2258.43
+Episode 204
+ 100 episode moving avg: 2259.04
+Episode 205
+ 100 episode moving avg: 2251.77
+Episode 206
+ 100 episode moving avg: 2245.49
+Episode 207
+ 100 episode moving avg: 2249.5
+Episode 208
+ 100 episode moving avg: 2238.59
+Episode 209
+ 100 episode moving avg: 2235.05
+Episode 210
+ 100 episode moving avg: 2241.46
+Episode 211
+ 100 episode moving avg: 2234.17
+Episode 212
+ 100 episode moving avg: 2262.08
+Episode 213
+ 100 episode moving avg: 2273.44
+Episode 214
+ 100 episode moving avg: 2285.42
+Episode 215
+ 100 episode moving avg: 2287.49
+Episode 216
+ 100 episode moving avg: 2286.74
+Episode 217
+ 100 episode moving avg: 2282.76
+Episode 218
+ 100 episode moving avg: 2279.78
+Episode 219
+ 100 episode moving avg: 2264.5
+Episode 220
+ 100 episode moving avg: 2294.62
+Episode 221
+ 100 episode moving avg: 2313.57
+Episode 222
+ 100 episode moving avg: 2326.58
+Episode 223
+ 100 episode moving avg: 2314.1
+Episode 224
+ 100 episode moving avg: 2319.24
+Episode 225
+ 100 episode moving avg: 2317.77
+Episode 226
+ 100 episode moving avg: 2328.9
+Episode 227
+ 100 episode moving avg: 2328.49
+Episode 228
+ 100 episode moving avg: 2330.19
+Episode 229
+ 100 episode moving avg: 2319.04
+Episode 230
+ 100 episode moving avg: 2309.86
+Episode 231
+ 100 episode moving avg: 2317.37
+Episode 232
+ 100 episode moving avg: 2317.55
+Episode 233
+ 100 episode moving avg: 2318.07
+Episode 234
+ 100 episode moving avg: 2316.44
+Episode 235
+ 100 episode moving avg: 2317.49
+Episode 236
+ 100 episode moving avg: 2318.75
+Episode 237
+ 100 episode moving avg: 2306.52
+Episode 238
+ 100 episode moving avg: 2297.06
+Episode 239
+ 100 episode moving avg: 2300.16
+Episode 240
+ 100 episode moving avg: 2320.96
+Episode 241
+ 100 episode moving avg: 2325.66
+Episode 242
+ 100 episode moving avg: 2324.12
+Episode 243
+ 100 episode moving avg: 2349.75
+Episode 244
+ 100 episode moving avg: 2344.32
+Episode 245
+ 100 episode moving avg: 2335.87
+Episode 246
+ 100 episode moving avg: 2337.58
+Episode 247
+ 100 episode moving avg: 2342.2
+Episode 248
+ 100 episode moving avg: 2354.38
+Episode 249
+ 100 episode moving avg: 2367.67
+Episode 250
+ 100 episode moving avg: 2369.68
+Episode 251
+ 100 episode moving avg: 2393.42
+Episode 252
+ 100 episode moving avg: 2363.93
+Episode 253
+ 100 episode moving avg: 2357.61
+Episode 254
+ 100 episode moving avg: 2350.29
+Episode 255
+ 100 episode moving avg: 2329.92
+Episode 256
+ 100 episode moving avg: 2313.49
+Episode 257
+ 100 episode moving avg: 2307.22
+Episode 258
+ 100 episode moving avg: 2316.58
+Episode 259
+ 100 episode moving avg: 2302.41
+Episode 260
+ 100 episode moving avg: 2300.73
+Episode 261
+ 100 episode moving avg: 2290.27
+Episode 262
+ 100 episode moving avg: 2291.0
+Episode 263
+ 100 episode moving avg: 2278.5
+Episode 264
+ 100 episode moving avg: 2264.85
+Episode 265
+ 100 episode moving avg: 2267.52
+Episode 266
+ 100 episode moving avg: 2271.89
+Episode 267
+ 100 episode moving avg: 2282.22
+Episode 268
+ 100 episode moving avg: 2300.18
+Episode 269
+ 100 episode moving avg: 2279.13
+Episode 270
+ 100 episode moving avg: 2276.44
+Episode 271
+ 100 episode moving avg: 2275.0
+Episode 272
+ 100 episode moving avg: 2274.39
+Episode 273
+ 100 episode moving avg: 2275.6
+Episode 274
+ 100 episode moving avg: 2288.39
+Episode 275
+ 100 episode moving avg: 2274.09
+Episode 276
+ 100 episode moving avg: 2261.9
+Episode 277
+ 100 episode moving avg: 2244.96
+Episode 278
+ 100 episode moving avg: 2277.27
+Episode 279
+ 100 episode moving avg: 2253.14
+Episode 280
+ 100 episode moving avg: 2257.52
+Episode 281
+ 100 episode moving avg: 2247.45
+Episode 282
+ 100 episode moving avg: 2249.21
+Episode 283
+ 100 episode moving avg: 2239.24
+Episode 284
+ 100 episode moving avg: 2242.53
+Episode 285
+ 100 episode moving avg: 2217.7
+Episode 286
+ 100 episode moving avg: 2225.66
+Episode 287
+ 100 episode moving avg: 2236.42
+Episode 288
+ 100 episode moving avg: 2245.34
+Episode 289
+ 100 episode moving avg: 2266.85
+Episode 290
+ 100 episode moving avg: 2247.33
+Episode 291
+ 100 episode moving avg: 2267.36
+Episode 292
+ 100 episode moving avg: 2292.87
+Episode 293
+ 100 episode moving avg: 2307.81
+Episode 294
+ 100 episode moving avg: 2308.19
+Episode 295
+ 100 episode moving avg: 2298.08
+Episode 296
+ 100 episode moving avg: 2297.87
+Episode 297
+ 100 episode moving avg: 2312.84
+Episode 298
+ 100 episode moving avg: 2326.37
+Episode 299
+ 100 episode moving avg: 2347.65
+Episode 300
+ 100 episode moving avg: 2319.86
