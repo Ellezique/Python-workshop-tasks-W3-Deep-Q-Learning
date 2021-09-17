@@ -1,7 +1,5 @@
 #! /bin/python3
 
-# https://w3.cs.jmu.edu/spragunr/papers/rldm2015.pdf
-
 # %matplotlib inline
 import gym
 import math
@@ -34,9 +32,8 @@ class DQN(nn.Module):
         self.fc1 = nn.Linear(in_features=img_height *
                              img_width*3, out_features=24)
         self.fc2 = nn.Linear(in_features=24, out_features=32)
-        self.fc3 = nn.Linear(in_features=32, out_features=64)
-        self.fc4 = nn.Linear(in_features=64, out_features=32)
-        self.fc5 = nn.Linear(in_features=32, out_features=24)
+        self.fc3 = nn.Linear(in_features=32, out_features=512)
+        self.fc4 = nn.Linear(in_features=512, out_features=24)
         self.out = nn.Linear(in_features=24, out_features=4)
 
     def forward(self, t):
@@ -45,7 +42,6 @@ class DQN(nn.Module):
         t = F.relu(self.fc2(t))
         t = F.relu(self.fc3(t))
         t = F.relu(self.fc4(t))
-        t = F.relu(self.fc5(t))
         t = self.out(t)
         return t
 
@@ -265,7 +261,7 @@ def plot(values, moving_avg_period):
     plt.plot(moving_avg)
     plt.pause(0.001)
     plt.savefig(figure_file_name('fig6'))
-    log("Episode", len(values),
+    log("Episode", len(values), "\n",
         moving_avg_period, "episode moving avg:", moving_avg[-1])
     if is_ipython:
         display.clear_output(wait=True)
@@ -333,15 +329,15 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 log("Using device", device.type, device)
 
 
-batch_size = 32
-gamma = 0.95
+batch_size = 256
+gamma = 0.999
 eps_start = 1
-eps_end = 0.001
-eps_decay = 0.99
+eps_end = 0.01
+eps_decay = 0.001
 target_update = 10
 memory_size = 10000
 lr = 0.0001
-num_episodes = 10  # run for more episodes for better results
+num_episodes = 10000  # run for more episodes for better results
 
 
 em = BreakoutEnvManager(device)
@@ -388,18 +384,14 @@ for episode in range(num_episodes):
 
     if episode % target_update == 0:
         target_net.load_state_dict(policy_net.state_dict())
-        torch.save(policy_net.state_dict(), "breakout.pt")
+
 em.close()
 
-# assert get_moving_average(100, episode_durations)[-1] > 15
-
-model = DQN(em.get_screen_height(), em.get_screen_width())
-model.load_state_dict(torch.load("breakout.pt"))
-model.eval()
+assert get_moving_average(100, episode_durations)[-1] > 15
 
 # HASH BANG LINE:
 #! /bin/python3
 # MAKE FILE EXECUTABLE:
 # chmod +x pythonbreakout.py
 # THEN RUN IT:
-# ./pythonbreakout_second.py
+# ./pythonbreakout.py
